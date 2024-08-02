@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:ui_designs/4th_day/profile_page.dart';
+import 'package:ui_designs/5th_day/bottom_navigation.dart';
 import 'package:ui_designs/core/constants/app_config.dart';
 import 'package:ui_designs/core/theme/app_theme.dart';
 
@@ -39,7 +39,7 @@ class MyApp extends StatelessWidget {
             theme: AppTheme.lightTheme,
             darkTheme: AppTheme.darkTheme,
             scaffoldMessengerKey: AppConfig.rootScaffoldMessengerKey,
-            home: const ProfilePage(),
+            home: const BottomNavigation(),
           );
         },
       ),
