@@ -15,6 +15,7 @@ dependencies:
   hooks_riverpod: ^2.5.1
   flutter_hooks: ^0.20.5
   staggered_grid_view_flutter: ^0.0.4
+  fl_chart: ^0.68.0
 
 dev_dependencies:
   flutter_test:
