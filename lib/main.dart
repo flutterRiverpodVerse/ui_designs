@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:ui_designs/7th_day/chart_home_page.dart';
+import 'package:provider/provider.dart';
+import 'package:ui_designs/8th_day/welcome_page.dart';
 import 'package:ui_designs/core/constants/app_config.dart';
 import 'package:ui_designs/core/theme/app_theme.dart';
+
+import '8th_day/models/cart_model.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -33,13 +36,19 @@ class MyApp extends StatelessWidget {
         splitScreenMode: true,
         useInheritedMediaQuery: true,
         builder: (context, child) {
-          return MaterialApp(
-            title: 'UI Designs',
-            debugShowCheckedModeBanner: false,
-            theme: AppTheme.lightTheme,
-            darkTheme: AppTheme.darkTheme,
-            scaffoldMessengerKey: AppConfig.rootScaffoldMessengerKey,
-            home: const ChartHomePage(),
+          return ChangeNotifierProxyProvider(
+            create: (context) => CartModel(),
+            update: (context, value, previous) {
+              return CartModel();
+            },
+            child: MaterialApp(
+              title: 'UI Designs',
+              debugShowCheckedModeBanner: false,
+              theme: AppTheme.lightTheme,
+              darkTheme: AppTheme.darkTheme,
+              scaffoldMessengerKey: AppConfig.rootScaffoldMessengerKey,
+              home: const WelcomePage(),
+            ),
           );
         },
       ),
