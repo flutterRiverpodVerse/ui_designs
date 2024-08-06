@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:provider/provider.dart';
-import 'package:ui_designs/8th_day/welcome_page.dart';
 import 'package:ui_designs/core/constants/app_config.dart';
 import 'package:ui_designs/core/theme/app_theme.dart';
 
 import '8th_day/models/cart_model.dart';
+import '9th_day/habbit_tracker_page.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -47,7 +47,7 @@ class MyApp extends StatelessWidget {
               theme: AppTheme.lightTheme,
               darkTheme: AppTheme.darkTheme,
               scaffoldMessengerKey: AppConfig.rootScaffoldMessengerKey,
-              home: const WelcomePage(),
+              home: const HabbitTrackerpage(),
             ),
           );
         },
