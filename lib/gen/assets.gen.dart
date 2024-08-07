@@ -21,6 +21,9 @@ class $AssetsImagesGen {
   /// File path: assets/images/chicken.png
   AssetGenImage get chicken => const AssetGenImage('assets/images/chicken.png');
 
+  /// File path: assets/images/four.jpg
+  AssetGenImage get four => const AssetGenImage('assets/images/four.jpg');
+
   /// File path: assets/images/onboarding_1.png
   AssetGenImage get onboarding1 =>
       const AssetGenImage('assets/images/onboarding_1.png');
@@ -33,12 +36,32 @@ class $AssetsImagesGen {
   AssetGenImage get onboarding3 =>
       const AssetGenImage('assets/images/onboarding_3.png');
 
+  /// File path: assets/images/one.jpg
+  AssetGenImage get one => const AssetGenImage('assets/images/one.jpg');
+
+  /// File path: assets/images/three.jpg
+  AssetGenImage get three => const AssetGenImage('assets/images/three.jpg');
+
+  /// File path: assets/images/two.jpg
+  AssetGenImage get two => const AssetGenImage('assets/images/two.jpg');
+
   /// File path: assets/images/water.png
   AssetGenImage get water => const AssetGenImage('assets/images/water.png');
 
   /// List of all assets
-  List<AssetGenImage> get values =>
-      [avocado, banana, chicken, onboarding1, onboarding2, onboarding3, water];
+  List<AssetGenImage> get values => [
+        avocado,
+        banana,
+        chicken,
+        four,
+        onboarding1,
+        onboarding2,
+        onboarding3,
+        one,
+        three,
+        two,
+        water
+      ];
 }
 
 class Assets {

@@ -4,8 +4,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:ui_designs/core/constants/app_colors.dart';
 import 'package:ui_designs/core/constants/app_constants.dart';
 
-class HabbitTrackerpage extends StatelessWidget {
-  const HabbitTrackerpage({super.key});
+class HabbitTrackerPage extends StatelessWidget {
+  const HabbitTrackerPage({super.key});
 
   @override
   Widget build(BuildContext context) {
