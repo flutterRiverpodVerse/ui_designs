@@ -12,6 +12,18 @@ import 'package:flutter/widgets.dart';
 class $AssetsImagesGen {
   const $AssetsImagesGen();
 
+  /// File path: assets/images/3d_image_1.png
+  AssetGenImage get a3dImage1 =>
+      const AssetGenImage('assets/images/3d_image_1.png');
+
+  /// File path: assets/images/3d_image_2.png
+  AssetGenImage get a3dImage2 =>
+      const AssetGenImage('assets/images/3d_image_2.png');
+
+  /// File path: assets/images/3d_image_3.png
+  AssetGenImage get a3dImage3 =>
+      const AssetGenImage('assets/images/3d_image_3.png');
+
   /// File path: assets/images/avocado.png
   AssetGenImage get avocado => const AssetGenImage('assets/images/avocado.png');
 
@@ -53,6 +65,9 @@ class $AssetsImagesGen {
 
   /// List of all assets
   List<AssetGenImage> get values => [
+        a3dImage1,
+        a3dImage2,
+        a3dImage3,
         avocado,
         banana,
         chicken,
