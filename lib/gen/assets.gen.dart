@@ -30,6 +30,13 @@ class $AssetsImagesGen {
   /// File path: assets/images/banana.png
   AssetGenImage get banana => const AssetGenImage('assets/images/banana.png');
 
+  /// File path: assets/images/cat.png
+  AssetGenImage get cat => const AssetGenImage('assets/images/cat.png');
+
+  /// File path: assets/images/cat_palm.png
+  AssetGenImage get catPalm =>
+      const AssetGenImage('assets/images/cat_palm.png');
+
   /// File path: assets/images/chicken.png
   AssetGenImage get chicken => const AssetGenImage('assets/images/chicken.png');
 
@@ -70,6 +77,8 @@ class $AssetsImagesGen {
         a3dImage3,
         avocado,
         banana,
+        cat,
+        catPalm,
         chicken,
         four,
         onboarding1,
