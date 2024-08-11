@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:provider/provider.dart';
-import 'package:ui_designs/13th_day/thirteenth_day_ui.dart';
+import 'package:ui_designs/14th_day/fourteenth_day_ui.dart';
 import 'package:ui_designs/core/constants/app_config.dart';
 import 'package:ui_designs/core/theme/app_theme.dart';
 
@@ -47,7 +47,7 @@ class MyApp extends StatelessWidget {
               theme: AppTheme.lightTheme,
               darkTheme: AppTheme.darkTheme,
               scaffoldMessengerKey: AppConfig.rootScaffoldMessengerKey,
-              home: const ThirteenthDayUi(),
+              home: const FourteenthDayUi(),
             ),
           );
         },
