@@ -43,6 +43,9 @@ class $AssetsImagesGen {
   /// File path: assets/images/four.jpg
   AssetGenImage get four => const AssetGenImage('assets/images/four.jpg');
 
+  /// File path: assets/images/guitar.jpg
+  AssetGenImage get guitar => const AssetGenImage('assets/images/guitar.jpg');
+
   /// File path: assets/images/onboarding_1.png
   AssetGenImage get onboarding1 =>
       const AssetGenImage('assets/images/onboarding_1.png');
@@ -89,6 +92,7 @@ class $AssetsImagesGen {
         catPalm,
         chicken,
         four,
+        guitar,
         onboarding1,
         onboarding2,
         onboarding3,
