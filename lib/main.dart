@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:provider/provider.dart';
-import 'package:ui_designs/15th_day/fifteenth_day_ui.dart';
 import 'package:ui_designs/core/constants/app_config.dart';
 import 'package:ui_designs/core/theme/app_theme.dart';
 
+import '16th_day/sixteenth_day_ui.dart';
 import '8th_day/models/cart_model.dart';
 
 void main() {
@@ -47,7 +47,7 @@ class MyApp extends StatelessWidget {
               theme: AppTheme.lightTheme,
               darkTheme: AppTheme.darkTheme,
               scaffoldMessengerKey: AppConfig.rootScaffoldMessengerKey,
-              home: const FifteenthDayUi(),
+              home: const SixteenthDayUi(),
             ),
           );
         },
