@@ -61,6 +61,10 @@ class $AssetsImagesGen {
   /// File path: assets/images/one.jpg
   AssetGenImage get one => const AssetGenImage('assets/images/one.jpg');
 
+  /// File path: assets/images/ramen_image.png
+  AssetGenImage get ramenImage =>
+      const AssetGenImage('assets/images/ramen_image.png');
+
   /// File path: assets/images/recipe_highlight.png
   AssetGenImage get recipeHighlight =>
       const AssetGenImage('assets/images/recipe_highlight.png');
@@ -100,6 +104,7 @@ class $AssetsImagesGen {
         onboarding2,
         onboarding3,
         one,
+        ramenImage,
         recipeHighlight,
         recipeImage,
         scenery,
