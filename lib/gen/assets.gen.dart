@@ -24,6 +24,9 @@ class $AssetsImagesGen {
   AssetGenImage get a3dImage3 =>
       const AssetGenImage('assets/images/3d_image_3.png');
 
+  /// File path: assets/images/avatar.png
+  AssetGenImage get avatar => const AssetGenImage('assets/images/avatar.png');
+
   /// File path: assets/images/avocado.png
   AssetGenImage get avocado => const AssetGenImage('assets/images/avocado.png');
 
@@ -45,6 +48,10 @@ class $AssetsImagesGen {
 
   /// File path: assets/images/guitar.jpg
   AssetGenImage get guitar => const AssetGenImage('assets/images/guitar.jpg');
+
+  /// File path: assets/images/login_bg.png
+  AssetGenImage get loginBg =>
+      const AssetGenImage('assets/images/login_bg.png');
 
   /// File path: assets/images/onboarding_1.png
   AssetGenImage get onboarding1 =>
@@ -93,6 +100,7 @@ class $AssetsImagesGen {
         a3dImage1,
         a3dImage2,
         a3dImage3,
+        avatar,
         avocado,
         banana,
         cat,
@@ -100,6 +108,7 @@ class $AssetsImagesGen {
         chicken,
         four,
         guitar,
+        loginBg,
         onboarding1,
         onboarding2,
         onboarding3,
